@@ -54,7 +54,6 @@ if (isset($_POST['next'])) {
             <form method="post" action="" class="contact100-form validate-form">
                 <span class="contact100-form-title">
                     <h2 style="font-size: 31px;">Oneway Workshop</h2>
-                    <h2 style="font-size: 31px;">TwoWay Workshop</h2>
                     <span class="paragraf">Sosyal Medya Özel Günler Listesi Formu</span>
                 </span>
 
