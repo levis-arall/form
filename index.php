@@ -2,8 +2,7 @@
 session_start();
 ob_start();
 
-if(isset($_POST['next']))
-{
+if (isset($_POST['next'])) {
     $firma_adi = $_POST['firma_adi'];
     $yetkili_adi = $_POST['yetkili_adi'];
     $tel = $_POST['tel'];
@@ -48,12 +47,14 @@ if(isset($_POST['next']))
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--===============================================================================================-->
 </head>
+
 <body>
     <div class="container-contact100">
         <div class="wrap-contact100">
             <form method="post" action="" class="contact100-form validate-form">
                 <span class="contact100-form-title">
                     <h2 style="font-size: 31px;">Oneway Workshop</h2>
+                    <h2 style="font-size: 31px;">TwoWay Workshop</h2>
                     <span class="paragraf">Sosyal Medya Özel Günler Listesi Formu</span>
                 </span>
 
@@ -72,21 +73,21 @@ if(isset($_POST['next']))
                     <span class="label-input100">TELEFON</span>
                     <input class="input100" type="number" name="tel" placeholder="Telefon">
                     <span class="focus-input100"></span>
-                    
+
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                     <span class="label-input100">MAİL ADRESİNİZ</span>
                     <input class="input100" type="text" name="email" placeholder="Mail Adresiniz">
                     <span class="focus-input100"></span>
-                    
+
                 </div>
 
                 <div class="wrap-input100 input100-select">
                     <span class="label-input100">Sektörüne Özel Günler Var mı</span>
                     <div>
                         <select class="selection-2" name="service">
-                        <option value="Seçiniz"style="coıor:#beb9b9;">Seçiniz</option>
+                            <option value="Seçiniz" style="coıor:#beb9b9;">Seçiniz</option>
                             <option value="EVET">Evet</option>
                             <option value="HAYIR">Hayır</option>
                         </select>
