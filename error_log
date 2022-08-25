@@ -1,0 +1,5 @@
+[20-Aug-2022 10:52:29 Europe/Istanbul] PHP Notice:  Undefined index: days in /home/u0397144/public_html/from/form2.php on line 35
+[20-Aug-2022 10:52:29 Europe/Istanbul] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/u0397144/public_html/from/form2.php on line 36
+[20-Aug-2022 10:52:29 Europe/Istanbul] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u0397144/public_html/from/class.phpmailer.php on line 1209
+[20-Aug-2022 14:29:12 Europe/Istanbul] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u0397144/public_html/from/class.phpmailer.php on line 1209
+[22-Aug-2022 14:53:26 Europe/Istanbul] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home/u0397144/public_html/from/class.phpmailer.php on line 1209
